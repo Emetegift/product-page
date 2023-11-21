@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>product page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="product">
+        <div class="gallery">
+          <img src="images/1.png" id="productImg" />
+
+          <div class="controls">
+            <span class="btn active"></span>
+            <span class="btn"></span>
+
+            <span class="btn"></span>
+            <span class="btn"></span>
+          </div>
+        </div>
+        <div class="details">
+          <h1>Healthy Yummy Perfait</h1>
+          <h2>$20</h2>
+          <h3>10% OFF</h3>
+          <p>
+            Welcome to Yummy Parfait, your destination for delightful
+            indulgence! Immerse yourself in a world of sweetness with our
+            premium ingredients and a variety of parfait options.
+          </p>
+          <br />
+
+          <p><b>Why Yummy Parfait?</b></p>
+          <br />
+          <ul>
+            <li>
+              <b>Irresistible Variety:</b> Customize your parfait with an array
+              of delectable layers and toppings.
+            </li>
+            <!-- <li>
+              <b>Craft Your Own:</b> Create a unique masterpiece to satisfy your
+              sweet tooth.
+            </li> -->
+            <li>
+              <b>Beyond Parfait:</b> Explore appetizing treats, refreshing fruit
+              blends, and tempting dessert options.
+            </li>
+            <li>
+              <b>Family-Friendly:</b> Relish a cozy atmosphere perfect for any
+              occasion.
+            </li>
+          </ul>
+
+          <p>
+            <b>Order Now:</b> Elevate your parfait experience. Yummy Parfait –
+            where every spoonful is a celebration of sweetness!
+          </p>
+
+          <form>
+            <div class="size-select">
+              <p>Flavor:</p>
+              <label for="small">
+                <span>Apple flavor</span>
+                <input type="radio" name="size" id="small" />
+              </label>
+              <label for="medium">
+                <span>Strawberry flavor</span>
+                <input type="radio" name="size" id="medium" />
+              </label>
+              <label for="large">
+                <span>Banana flavor</span>
+                <input type="radio" name="size" id="large" />
+              </label>
+              <label for="x-large">
+                <span>Orange flavor</span>
+                <input type="radio" name="size" id="xlarge" />
+              </label>
+            </div>
+            <div class="color-select">
+              <p>Color</p>
+              <label for="red">
+                <input type="radio" name="color" id="red" />
+                <span class="color-1"></span>
+              </label>
+              <label for="green">
+                <input type="radio" name="color" id="green" />
+                <span class="color-2"></span>
+              </label>
+              <label for="blue">
+                <input type="radio" name="color" id="blue" />
+                <span class="color-3"></span>
+              </label>
+              <label for="pink">
+                <input type="radio" name="color" id="pink" />
+                <span class="color-4"></span>
+              </label>
+            </div>
+            <div class="quantity-select">
+              <p>Quantity</p>
+
+              <input type="number" value="1" />
+            </div>
+            <button>Buy Now</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
